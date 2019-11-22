@@ -1,0 +1,10 @@
+[package]
+name = "count_occurences"
+version = "1.0.0"
+authors = ["Tim Hutt <tdhutt@gmail.com>"]
+edition = "2018"
+description = "A trivial program to count the occurences of a string in a file."
+license = "0BSD"
+
+[dependencies]
+aho-corasick = "0.7"
